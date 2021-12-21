@@ -1,0 +1,86 @@
+body{
+	background-image: ('sanjidamun.jpg');
+	background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+	background-color: #ff00ff;
+  color:  #002080;
+}
+h2{
+  color:#006600;
+}
+ul{
+	color:#ff3300;
+}
+li{
+color:#990099;
+}
+ol{
+	color:#990099;
+}
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+div{
+	background-color:#ccccff;
+  border: 2px;
+  margin: 70px;
+  padding: 20px;
+}
+p {
+	background-color:66ffff; 
+  color:ff0066;
+}
+blockquote{
+	color:#ff3385;
+}
+caption{
+	background-color:#006600;
+	color:#99cc00;
+}
+<style>
+table td,th{
+	font: arial;
+	border: 1px solid;
+	border-collapse: collapse;
+	padding: 15px;
+	text-align: left;
+	border-spacing: 5px;
+}
+	#t01 {
+  width: 100%;
+  background-color: #ff66cc;
+}
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+  background-color: #fff;
+}
+#t01 th {
+  color:#000066;
+  background-color:#99ff99;
+}
+th, td {
+  padding: 15px;
+}
+}
+</style>
